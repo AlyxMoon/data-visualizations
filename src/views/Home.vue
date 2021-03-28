@@ -1,11 +1,15 @@
 <template>
-  <h1>Hello World</h1>
+  <SortBubble />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import SortBubble from '@/components/SortBubble.vue'
 
 export default defineComponent({
-  name: 'HomePage',
+  name: 'Home',
+  components: {
+    SortBubble,
+  },
 })
 </script>
